@@ -3,7 +3,7 @@ import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // --- Supabase setup ---
 const SUPABASE_URL = "https://dehvcgzyfbolxqpnvcoy.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRlaHZjZ3p5ZmJvbHhxcG52Y295Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMxODQ3MTAsImV4cCI6MjA3ODc2MDcxMH0.ukqrBPMPEKq0yC3whe1urR9fT8m1tJW9KUtpBZ8wWSg";
+const SUPABASE_ANON_KEY = "sb_publishable_J0ciiyHEVl-EsYogjuRrdQ_vzk3n_Pp";
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // --- DOM elements ---
@@ -51,3 +51,4 @@ form.addEventListener("submit", async (e) => {
     loadMessages();
   }
 });
+
