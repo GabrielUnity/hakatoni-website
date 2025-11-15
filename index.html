@@ -3,9 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Supabase Messages</title>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.34.0/dist/supabase.browser.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    #messages { margin-bottom: 1rem; }
+    .msg { padding: 0.5rem; border-bottom: 1px solid #ddd; }
+  </style>
 </head>
 <body>
+  <h1>Messages</h1>
   <div id="messages"></div>
 
   <form id="messageForm">
@@ -13,7 +18,7 @@
     <button type="submit">Send</button>
   </form>
 
-  <script src="script.js"></script>
+  <!-- Modern ES module script -->
+  <script type="module" src="script.js"></script>
 </body>
 </html>
-
