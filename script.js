@@ -49,6 +49,7 @@ form.addEventListener("submit", async (e) => {
     input.value = "";
     loadMessages();
   }
+});
 supabase
   .channel("realtime messages")
   .on(
@@ -62,4 +63,3 @@ supabase
     }
   )
   .subscribe();
-});
