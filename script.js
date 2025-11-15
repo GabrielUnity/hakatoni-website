@@ -1,5 +1,5 @@
 // Import Supabase v2 as an ES module
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.34.0/dist/supabase.min.js";
+import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.34.0/dist/module/supabase.js';
 
 // --- Supabase setup ---
 const SUPABASE_URL = "https://dehvcgzyfbolxqpnvcoy.supabase.co";
@@ -51,4 +51,5 @@ form.addEventListener("submit", async (e) => {
     loadMessages();
   }
 });
+
 
